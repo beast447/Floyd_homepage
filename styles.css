@@ -1,0 +1,84 @@
+
+
+body {
+    text-align: center;
+    background: linear-gradient(#2E2628, #C79573);
+}
+
+#hero {
+    display:flex;
+    flex-direction: column;
+    color:white;
+    background-image: url(/images/buffalo.png);
+    background-size: cover;
+    height: auto;
+    margin: -10px;
+    padding: 212px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-hero {
+    background-color: #C79573;
+    border: 1px solid #C79573;
+    border-radius: 15px;
+    background-size: auto;
+    width: 400px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 75px;
+}
+
+.text-hero {
+    background-color: #2E2628;
+    padding: 15px;
+    margin-top:-8px;
+    border: 1px solid #2E2628;
+    border-radius: 15px;
+    font-family: 'Lobster', sans-serif;
+}
+
+#act-text {
+    font-family: 'Agbalumo', sans-serif;
+    margin: 60px;
+}
+
+.img {
+    width: 250px;
+    height:250px;
+    border: 6px solid #2e2628;
+    border-radius: 200px;
+}
+
+.columns {
+    display: flex;  
+    width: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.para {
+    color: #2e2628;
+}
+
+.avatar {
+    width: 220px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#card {
+    width:550px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:150px;
+    text-align: center;
+    background-color: #2e2628;
+    padding:20px;
+    border-radius: 20px;
+    color:#C79573;
+    font-family: 'Agbalumo', sans-serif;
+    text-shadow: 3px 3px 4px black;
+    
+}
